@@ -5,7 +5,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3  # Descarga tu código
+    - uses: actions/checkout@v4  # Descarga tu código
     
     - name: Set up JDK 17
       uses: actions/setup-java@v3
