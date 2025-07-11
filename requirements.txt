@@ -1,0 +1,4 @@
+flet==0.21.2
+pyjnius
+openssl
+sqlite3
