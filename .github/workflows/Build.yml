@@ -22,7 +22,7 @@ jobs:
     - name: Configure Buildozer
       run: |
         buildozer init
-        echo "requirements = python3,flet" >> buildozer.spec
+        echo "requirements = python3,flet,sqlite3" >> buildozer.spec
         echo "android.permissions = INTERNET" >> buildozer.spec
         echo "android.api = 33" >> buildozer.spec
         
